@@ -47,3 +47,12 @@ html, body{
     opacity: 1;
     transform: translateY(0);
 }
+
+@keyframes floatMesh {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0px); }
+}
+.animate-mesh {
+  animation: floatMesh 10s ease-in-out infinite;
+}
