@@ -1,7 +1,16 @@
 import { RevealOnScroll } from "../RevealOnScroll";
+import { Helmet } from "react-helmet-async";
 
 export const Home = () => {
     return ( 
+      <>
+        <Helmet>
+          <title>Accueil | Nasaina Lova - Développeur Fullstack</title>
+          <meta
+            name="description"
+            content="Découvrez mes réalisations web et mes projets fullstack en React, Laravel et Data Science."
+          />
+        </Helmet>
         <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden bg-[radial-gradient(circle_at_center,_#051c5cc0_0%,_#020203_50%,_#0a0a0a_100%)] text-white">
             <svg
               className="absolute inset-0 w-full h-full  opacity-40 animate-pulse"
@@ -93,5 +102,6 @@ export const Home = () => {
 
              {/* <div className="absolute inset-0 bg-black/50 pointer-events-none" /> */}
         </section>
+      </>
      );
 }
