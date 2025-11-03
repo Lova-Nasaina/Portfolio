@@ -2,6 +2,7 @@ import { RevealOnScroll } from "../RevealOnScroll";
 import image from "../../assets/img/isika.webp";
 import imageAnalyse from "../../assets/img/Capture.PNG";
 import imageRouge from "../../assets/img/Capture2ron.jpg";
+import imageEventManager from "../../assets/img/event-manager.png";
 
 export const Projects = () => {
     return ( 
@@ -46,11 +47,11 @@ export const Projects = () => {
                     </div>
 
                      <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rbga(59, 130, 246, 0.2)] transition">
-                        {/* <img 
-                            src={image} 
+                        <img 
+                            src={imageEventManager} 
                             alt="Plateforme digital" 
                             className="w-full h-48 object-cover rounded-md mb-4 transform transition-transform duration-300 hover:scale-105"
-                        /> */}
+                        />
                         <h3 className="text-xl font-bold mb-2">Event Manager</h3>
                         <p className="text-gray-400 mb-4">
                             {" "}
