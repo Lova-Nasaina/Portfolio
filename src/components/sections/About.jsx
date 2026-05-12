@@ -122,37 +122,37 @@ export const About = () => {
                         <h3 className="text-xl font-bold mb-4 ">Education</h3>
                         <ul className="list-disc list-inside text-gray-300 space-y-2">
                             <li>
-                                <strong>M1 Genie Logiciel & Intelligence Artificielle</strong> - Institut Supérieur Polytechnique de Madagascar (2021-2025)
+                                <strong>{t('parcour')}</strong> - {t('institut')}
                             </li>
                             <li>
-                                <strong>Baccalauréat - serie C </strong> (2020)
+                                <strong>{t('bacc')}</strong> (2020)
                             </li>
                         </ul>
                     </div>
                     <div className="p-6 rounded-xl border-white/10 border hover:-translate-y transition-all">
-                        <h3 className="text-xl font-bold mb-4 ">Work Experience</h3>
+                        <h3 className="text-xl font-bold mb-4 ">{t('experience')}</h3>
                         <div className="space-y-4 text-gray-300">
                             <div className="spacy-2">
-                                <h4 className="font-semibold">Développeur Fullstack – Projet plateforme citoyenne à Madagascar ( 2025 )</h4>
+                                <h4 className="font-semibold">{t('title_work')}</h4>
                                 <ul className="list-disc list-inside text-gray-300 space-y-1">
                                     <li>
-                                        Conception et développement d’une plateforme réunissant les acteurs publics pour la concertation et la gouvernance locale.
+                                        {t('li1')}
                                     </li>
                                     <li>
-                                        Intégration de solutions de collaboration avec les ONG pour faciliter la validation des propositions.
+                                        {t('li2')}
                                     </li>
                                     <li>
-                                        Mise en place d’un tableau de bord public affichant les statistiques clés de la plateforme.
+                                        {t('li3')}
                                     </li>
                                 </ul>
                             </div>
                         </div>
                     </div>
                     <div className="p-6 rounded-xl border-white/10 border hover:-translate-y transition-all">
-                        <h3 className="text-xl font-bold mb-4 ">Certifications</h3>
+                        <h3 className="text-xl font-bold mb-4 ">{t('certification')}</h3>
                         <ul className="list-disc list-inside text-gray-300 space-y-2">
                             <li>
-                                <strong>Certification Développeur Fullstack avec Node.js et MongoDB</strong> - Orange Digital Center Madagascar (2025)
+                                <strong>{t('odc_title')}</strong> - {t('odc')}
                             </li>
                         </ul>
                     </div>

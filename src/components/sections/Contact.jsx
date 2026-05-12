@@ -3,8 +3,12 @@ import { RevealOnScroll } from "../RevealOnScroll";
 import emailjs from "emailjs-com";
 import toast from "react-hot-toast";
 import { CheckCircle2, XCircle, Send } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 export const Contact = () => {
+
+   const { t } = useTranslation();
+    
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -66,7 +70,7 @@ export const Contact = () => {
                 
                 <div className="w-full md:w-[600px] glass p-6 md:p-10 rounded-2xl border border-white/10">
                     <h2 className="text-3xl md:text-4xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">
-                        Get In Touch
+                        {t('colaborate')}
                     </h2>
                     
                     <form className="space-y-5" onSubmit={handleSubmit}>
@@ -77,7 +81,7 @@ export const Contact = () => {
                                 required 
                                 value={formData.name}
                                 className="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-white transition focus:outline-none focus:border-blue-500 focus:bg-blue-500/10"
-                                placeholder="Nom complet"
+                                placeholder={t('yname')}
                                 onChange={(e) => setFormData({...formData, name: e.target.value})}
                             />
                         </div>
@@ -101,7 +105,7 @@ export const Contact = () => {
                                 required 
                                 value={formData.message}
                                 className="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-white transition focus:outline-none focus:border-blue-500 focus:bg-blue-500/10 resize-none"
-                                placeholder="Votre Message..."
+                                placeholder={t('message')}
                                 onChange={(e) => setFormData({...formData, message: e.target.value})}
                             />
                         </div>
@@ -110,7 +114,7 @@ export const Contact = () => {
                             type="submit" 
                             className="w-full bg-blue-600 hover:bg-blue-500 text-white py-3 px-6 rounded-lg font-bold transition-all flex items-center justify-center gap-2 hover:-translate-y-1 hover:shadow-[0_0_20px_rgba(37,99,235,0.4)]"
                         >
-                            Send Message <Send size={18} />
+                            {t('sendMessage')} <Send size={18} />
                         </button>
                     </form>
                 </div>

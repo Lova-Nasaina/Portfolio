@@ -11,6 +11,9 @@
     "about_competence": "Tout au long de mes projets, j’ai développé des compétences solides et une approche pragmatique pour résoudre des problèmes complexes. Voici les principales technologies et outils que j’utilise au quotidien :",
     "aboutMe": "A propos de moi",
     "education": "Education",
+    "parcour": "M1 Genie Logiciel & Intelligence Artificielle",
+    "institut": "Institut Supérieur Polytechnique de Madagascar (2021-2025)",
+    "bacc": "Baccalauréat - serie C",
     "experience": "Expérience professionnelle",
     "title_work": "Développeur Fullstack – Projet plateforme citoyenne à Madagascar ( 2025 )",
     "li1": "Conception et développement d’une plateforme réunissant les acteurs publics pour la concertation et la gouvernance locale.",
@@ -20,5 +23,8 @@
     "odc_title": "Certification Développeur Fullstack avec Node.js et MongoDB",
     "odc": "Orange Digital Center Madagascar (2025)",
     "project": "Projets phares",
-    "colaborate": "Prêt à collaborer"
+    "colaborate": "Prêt à collaborer",
+    "yname": "Nom complet",
+    "message": "Votre Message...",
+    "sendMessage": "Envoyer un message"
 }

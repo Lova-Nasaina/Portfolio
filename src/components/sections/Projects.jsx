@@ -1,10 +1,14 @@
 import { RevealOnScroll } from "../RevealOnScroll";
 import image from "../../assets/img/isika.webp";
 import imageAnalyse from "../../assets/img/Capture.PNG";
-import imageRouge from "../../assets/img/Capture2ron.jpg";
+import imageRouge from "../../assets/img/solfaMl.avif";
 import imageEventManager from "../../assets/img/event-manager.png";
+import { useTranslation } from "react-i18next";
 
 export const Projects = () => {
+
+    const {t} = useTranslation();
+
     return ( 
         <section id="projects" className="min-h-screen flex items-center justify-center py-20">
 
@@ -12,7 +16,7 @@ export const Projects = () => {
             <div className="max-w-5xl mx-auto px-4">
                 <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">
                     {" "}
-                    Feature Projects
+                    {t('project')}
                 </h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rbga(59, 130, 246, 0.2)] transition">
@@ -55,7 +59,7 @@ export const Projects = () => {
                         <h3 className="text-xl font-bold mb-2">Event Manager</h3>
                         <p className="text-gray-400 mb-4">
                             {" "}
-                            Application Web de gestion d'evennement
+                            Event Manager est une plateforme intelligente de gestion d’événements conçue pour simplifier l’organisation, la planification et le suivi des activités en temps réel.
                         </p>
                         <div className="flex flex-wrap gap-2 mb-4">
                             {["React", "Node", "Tailwind", "MongoDB"].map((tech, key) =>(
@@ -82,10 +86,13 @@ export const Projects = () => {
                             alt="Plateforme digital" 
                             className="w-full h-48 object-cover rounded-md mb-4 transform transition-transform duration-300 hover:scale-105"
                         />
-                        <h3 className="text-xl font-bold mb-2">Rouge-Nature</h3>
+                        <h3 className="text-xl font-bold mb-2">SolfaML</h3>
                         <p className="text-gray-400 mb-4">
                             {" "}
-                            Un site moderne qui met en lumière de nouveaux produits à base de baies rouges, pour séduire et informer les visiteurs en quelques clics.
+                            SolfaML est un projet de creation de nouveau langage informatique pour une description musical dedie au
+                            Solfa a fin de standardise les celle ci.
+                            Ainsi que la creation d’une editeur personnaliser pour le langage dedie au
+                            Solfa
                         </p>
                         <div className="flex flex-wrap gap-2 mb-4">
                             {["VanillaJS", "CSS", "HTML"].map((tech, key) =>(
