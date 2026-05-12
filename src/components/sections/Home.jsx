@@ -119,9 +119,12 @@ export const Home = () => {
               </a>
 
               <a
-                href="#"
+                href="/CV-nasaina.pdf" 
+                target="_blank"        
+                rel="noopener noreferrer"
+                download="CV_Nasaina_Lova.pdf"
                 className="flex-1 sm:flex-none border border-white/10 bg-white/5 hover:bg-white/10 text-white py-3 px-6 rounded-lg font-medium transition-all flex items-center justify-center gap-2"
-                >
+              >
                 {t('cv')}
               </a>
             </div>
