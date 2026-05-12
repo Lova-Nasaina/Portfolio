@@ -1,6 +1,5 @@
 import './App.css'
 import './index.css'
-import { useTranslation } from 'react-i18next'
 import { LoadingScreen } from './components/LoadingScreen';
 import { useState } from 'react';
 import { NavBar } from './components/NavBar';
@@ -10,15 +9,16 @@ import { About } from './components/sections/About';
 import { Projects } from './components/sections/Projects';
 import { Contact } from './components/sections/Contact';
 import { Footer } from './components/sections/Footer';
+import { Toaster } from 'react-hot-toast';
 
 function App() {
-  const { t } = useTranslation();
   const [isLoaded, setIsLoaded] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
 
 
   return (
     <>
+      <Toaster position="bottom-right" reverseOrder={false} />
       {!isLoaded && <LoadingScreen onComplete={() => setIsLoaded(true)}/>}{" "}
       <div className={`min-h-screen transition-opacity duration-700 ${isLoaded ? "opacity-100" : "opacity-0"} bg-transparent text-grey-100`}>
           <NavBar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>

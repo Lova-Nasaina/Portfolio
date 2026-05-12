@@ -1,3 +1,24 @@
 {
-    "greeting" : "Bonjour, Bienvenue !"
+    "greeting" : "Bonjour, Bienvenue !",
+    "presentation": "Bonjour, je suis Lova Nasaina",
+    "description": "Je conçois et développe des systèmes intelligents et des applications web modernes qui allient performance, esthétique et innovation.",
+    "home": "Accueil",
+    "About": "A propos",
+    "Project": "Projets",
+    "Contact": "Contact",
+    "cv": "Mon CV",
+    "me": "Contactez-moi",
+    "about_competence": "Tout au long de mes projets, j’ai développé des compétences solides et une approche pragmatique pour résoudre des problèmes complexes. Voici les principales technologies et outils que j’utilise au quotidien :",
+    "aboutMe": "A propos de moi",
+    "education": "Education",
+    "experience": "Expérience professionnelle",
+    "title_work": "Développeur Fullstack – Projet plateforme citoyenne à Madagascar ( 2025 )",
+    "li1": "Conception et développement d’une plateforme réunissant les acteurs publics pour la concertation et la gouvernance locale.",
+    "li2": "Intégration de solutions de collaboration avec les ONG pour faciliter la validation des propositions.",
+    "li3": "Mise en place d’un tableau de bord public affichant les statistiques clés de la plateforme.",
+    "certification": "Certifications",
+    "odc_title": "Certification Développeur Fullstack avec Node.js et MongoDB",
+    "odc": "Orange Digital Center Madagascar (2025)",
+    "project": "Projets phares",
+    "colaborate": "Prêt à collaborer"
 }
