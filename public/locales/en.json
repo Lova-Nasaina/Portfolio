@@ -8,7 +8,7 @@
     "Contact": "Contact",
     "cv": "My CV",
     "me": "Contact Me",
-    "about_competence": "Tout au long de mes projets, j’ai développé des compétences solides et une approche pragmatique pour résoudre des problèmes complexes. Voici les principales technologies et outils que j’utilise au quotidien :",
+    "about_competence": "Throughout my projects, I have developed strong skills and a pragmatic approach to solving complex problems. Here are the main technologies and tools I use on a daily basis:",
     "aboutMe": "About me",
     "education": "Education",
     "parcour": "M1 Genie: Software and Artificial Intelligence",
@@ -26,5 +26,12 @@
     "colaborate": "Ready to collaborate",
     "yname": "Full name",
     "message": "Your Message...",
-    "sendMessage": "Send Message"
+    "sendMessage": "Send Message",
+    "isika_title": "Digital platform for citizen engagement",
+    "isika_desc": "A digital platform for citizen engagement developed for the ISIKA association, enabling citizens and public officials to collaborate and track local initiatives.",
+    "event_title": "Event Manager",
+    "event_desc": "Event Manager is a smart event management platform designed to simplify the organization, planning, and real-time tracking of events.",
+    "solfa_desc": " SolfaML est un projet de creation de nouveau langage informatique pour une description musical dedie au Solfa a fin de standardise les celle ci. Ainsi que la creation d’une editeur personnaliser pour le langage dedie au Solfa",
+    "analitics_title": "Analysis of COVID-19 Data",
+    "analitycs_desc": "This project aims to collect, process, and analyze data related to the COVID-19 pandemic in order to provide clear and interactive visualizations. By analyzing trends, tracking case developments, and supporting decision-making through accurate indicators and intuitive charts."
 }

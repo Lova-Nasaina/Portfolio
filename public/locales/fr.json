@@ -26,5 +26,12 @@
     "colaborate": "Prêt à collaborer",
     "yname": "Nom complet",
     "message": "Votre Message...",
-    "sendMessage": "Envoyer un message"
+    "sendMessage": "Envoyer un message",
+    "isika_title": "Plateforme digital de participation citoyenne",
+    "isika_desc": "Une plateforme digitale de concertation citoyenne pour l’association ISIKA, permettant aux citoyens et acteurs publics de collaborer et de suivre les initiatives locales.",
+    "event_title": "Event Manager",
+    "event_desc": "Event Manager est une plateforme intelligente de gestion d’événements conçue pour simplifier l’organisation, la planification et le suivi des activités en temps réel.",
+    "solfa_desc": " SolfaML est un projet de creation de nouveau langage informatique pour une description musical dedie au Solfa a fin de standardise les celle ci. Ainsi que la creation d’une editeur personnaliser pour le langage dedie au Solfa",
+    "analitics_title": "Analyse des donnees du COVID19",
+    "analitycs_desc": "Ce projet de collection, traitement et analyser des données liées à la pandémie de COVID-19 afin de fournir des visualisations claires et interactives. en analysant les tendances, suivre l’évolution des cas et aider à la prise de décision grâce à des indicateurs précis et des graphiques intuitifs."
 }

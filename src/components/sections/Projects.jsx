@@ -25,10 +25,10 @@ export const Projects = () => {
                             alt="Plateforme digital" 
                             className="w-full h-50 object-cover rounded-md mb-4 transform transition-transform duration-300 hover:scale-105"
                         />
-                        <h3 className="text-xl font-bold mb-2">Plateforme digital de participation citoyenne</h3>
+                        <h3 className="text-xl font-bold mb-2">{t('isika_title')}</h3>
                         <p className="text-gray-400 mb-4">
                             {" "}
-                            Une plateforme digitale de concertation citoyenne pour l’association ISIKA, permettant aux citoyens et acteurs publics de collaborer et de suivre les initiatives locales.
+                            {t('isika_desc')}
                         </p>
                         <div className="flex flex-wrap gap-2 mb-4">
                             {["React", "Laravel", "Sass", "Mysql"].map((tech, key) =>(
@@ -59,7 +59,7 @@ export const Projects = () => {
                         <h3 className="text-xl font-bold mb-2">Event Manager</h3>
                         <p className="text-gray-400 mb-4">
                             {" "}
-                            Event Manager est une plateforme intelligente de gestion d’événements conçue pour simplifier l’organisation, la planification et le suivi des activités en temps réel.
+                            {t('event_desc')}
                         </p>
                         <div className="flex flex-wrap gap-2 mb-4">
                             {["React", "Node", "Tailwind", "MongoDB"].map((tech, key) =>(
@@ -89,10 +89,7 @@ export const Projects = () => {
                         <h3 className="text-xl font-bold mb-2">SolfaML</h3>
                         <p className="text-gray-400 mb-4">
                             {" "}
-                            SolfaML est un projet de creation de nouveau langage informatique pour une description musical dedie au
-                            Solfa a fin de standardise les celle ci.
-                            Ainsi que la creation d’une editeur personnaliser pour le langage dedie au
-                            Solfa
+                            {t('solfa_desc')}
                         </p>
                         <div className="flex flex-wrap gap-2 mb-4">
                             {["VanillaJS", "CSS", "HTML"].map((tech, key) =>(
@@ -119,11 +116,10 @@ export const Projects = () => {
                             alt="Plateforme digital" 
                             className="w-full h-48 object-cover rounded-md mb-4 transform transition-transform duration-300 hover:scale-105"
                         />
-                        <h3 className="text-xl font-bold mb-2">Analyse des donnees du COVID19</h3>
+                        <h3 className="text-xl font-bold mb-2">{t('analitics_title')}</h3>
                         <p className="text-gray-400 mb-4">
                             {" "}
-                            Ce projet de collection, traitement et analyser des données liées à la pandémie de COVID-19 afin de fournir des visualisations claires et interactives.
-                            en analysant les tendances, suivre l’évolution des cas et aider à la prise de décision grâce à des indicateurs précis et des graphiques intuitifs.
+                            {t('analitycs_desc')}
                         </p>
                         <div className="flex flex-wrap gap-2 mb-4">
                             {["Seaborn", "Scikit-Learn", "Plotly", "Matplotlib"].map((tech, key) =>(
